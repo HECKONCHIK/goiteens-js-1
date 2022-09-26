@@ -41,11 +41,47 @@ const txt = 'true';
 // const quantity = prompt("Ім'я користувача");
 // console.log(quantity);
 // Завдання 2
+let myAge = 15;
+let friendage = 15;
+const sumOurAge = myAge + friendage;
+// console.log(sumOurAge);
 // Завдання 3
+let a = 69;
+let b = 121;
+const dob = a * b;
+// console.log(dob);
 // Завдання 4
+let a1 = 5 + 3;
+// console.log(a2);
+let a2 = 5 - 3;
+// console.log(a3);
+let a3 = -5 + 3;
+// console.log(a3);
+let a4 = 5 * 3;
+// console.log(a4);
+let a5 = 5 / 3;
+// console.log(a5);
 // Завдання 5
+let a6 = 5 % 3;
+// alert(a6);
+let a7 = 3 % 5;
+// alert(a7);
+let a8 = 5 + '3';
+// alert(a8);
+let a9 = '5' - 3;
+// alert(a9);
+let a10 = 75 + 'кг';
+// alert(a10);
 // Завдання 6
+let height = 23;
+let width = 10;
+const s = height * width
+// console.log(s);
 // Завдання 7
+let heightC = 10;
+let dC = 4;
+const v = heightC * dC;
+// console.log(v); 
 // Завдання 8
 let n = 3;
 let m = 4;
