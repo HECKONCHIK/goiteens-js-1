@@ -57,12 +57,12 @@
 
 // 9. Ціна 1кг м"яса 200грн. Напиши скрипт який просить користувача ввести кількість м"яса в замовлені в кг. 
     // Порахуй загальну вартість замовлення та виведи результат користувачу.
-let pricePerKilo = '200grn';
-pricePerKilo = Number.parseInt(pricePerKilo);
-let orderedQuantity = prompt('Скільки кіло хочете взяти?');
-orderedQuantity = Number.parseFloat(orderedQuantity);
-const sum = pricePerKilo * orderedQuantity;
-alert((sum));
+// let pricePerKilo = '200grn';
+// pricePerKilo = Number.parseInt(pricePerKilo);
+// let orderedQuantity = prompt('Скільки кіло хочете взяти?');
+// orderedQuantity = Number.parseFloat(orderedQuantity);
+// const sum = pricePerKilo * orderedQuantity;
+// alert((sum));
 
 // 13. Напиши скрипт який знайде довжину рядка "Hello, world! Javascript is awesome!".
     // Зробить всі літери великими. Знайде в рядку
