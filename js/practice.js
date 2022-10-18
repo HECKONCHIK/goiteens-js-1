@@ -73,3 +73,22 @@
 
 // const search = str.includes('javascript');
 // console.log(search);
+
+// Завдання №1
+
+// let name = 'Генератор захисного поля';
+// let price = 1000;
+// console.log(`ОБрано ${name}, ціна за штуку ${price}`);
+// price = 2000;
+// console.log(`ОБрано ${name}, ціна за штуку ${price}`);
+
+
+// Завдання №2
+
+// const total = 100;
+// const order = 200;
+// if (total < order) {
+//     console.log("На складі недостатньо товарів!");
+// } else {
+//     console.log("Замовлення оформлено, з вами зв'яжеться менеджер!");
+// }
