@@ -1,10 +1,12 @@
 // Завдання №1
+
 // const max = 10;
 // for (let i = 0; i <= max; i += 1 ) {
 //     console.log(i);
 // }
 
 // Завдання №2
+
 // const number = 11;
 
 // for (let i = 0; i < number; i += 1) {
@@ -16,6 +18,7 @@
 // }
 
 // Завдання №3
+
 // let num = 20;
 
 // while (num < 28) {
@@ -24,13 +27,15 @@
 // }
 
 // Завдання №4
-let names = '';
 
-do {
-    names = prompt('Введіть ім’я свого улюбленого героя');
-    console.log(names);
-    
-} while (names.length < 6)
+// let names = '';
 
-
+// while (names.length < 6) {
+//     names = prompt("Введіть ім'я улюбленого героя.");
+//     if (names.length < 6) {
+//         console.log(names);
+//     } else {
+//         break;
+//     }
+// }
 
