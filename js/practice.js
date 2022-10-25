@@ -92,3 +92,82 @@
 // } else {
 //     console.log("Замовлення оформлено, з вами зв'яжеться менеджер!");
 // }
+
+
+
+// Завдання №1
+// const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
+// let total = 0;
+
+// for (const sum of cart) {
+//     total += sum;
+//     console.log(total);
+// }
+
+// Завдання №2
+
+// const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
+// let total = 0
+
+// for (const number of numbers) {
+//     if (number % 2 === 0) {
+//         total += number;
+//     console.log(total);
+//     }
+// }
+
+// Завдання №3
+
+/*
+ * Напиши скрипт пошуку логіна
+ * - Якщо логіна немає, вивести повідомлення 'Користувач [логін] не знайдено.'
+ * - Якщо знайшли логін, вивести повідомлення 'Користувач [логін] знайдено.'
+ *
+ * - Спочатку через for
+ * - Потім через for...of
+ * - Логіка break
+ * - Метод includes() с тернарним оператором
+ */
+
+const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
+const loginToFind = 'aj4xth3m4n';
+// let message = `Користувач ${loginToFind} не знайдено`;
+
+// for (let i = 0; i < logins.length; i++ ) {
+//     if (logins[i] !== loginToFind) {
+//         console.log(`Користувач ${loginToFind} не знайдено.`);
+//         continue;
+//     } else {
+//         console.log(`Користувач ${loginToFind} знайдено.`);
+//     }
+// }
+
+// for (const login of logins) {
+//     if (login === loginToFind) {
+//         message = `Користувач ${loginToFind} знайдено.`;
+//     }
+// }
+// console.log(message);
+
+// if(logins.includes(loginToFind)){
+//    message = `Користувач ${loginToFind} знайдено`;
+// }
+// console.log(message);
+
+// const message = logins.includes(loginToFind)
+// ? `Користувач ${loginToFind} знайдено.`
+// : `Користувач ${loginToFind} не знайдено.`;
+
+// Завдання №4
+
+const array1 = [5, 10, 15, 20];
+const array2 = [10, 20, 30];
+const array3 = array1.concat(array2);
+let total = 0;
+
+console.log(array3);
+
+for (const num of array3) {
+    total += num;
+}
+console.log(total);
