@@ -160,14 +160,145 @@ const loginToFind = 'aj4xth3m4n';
 
 // Завдання №4
 
-const array1 = [5, 10, 15, 20];
-const array2 = [10, 20, 30];
-const array3 = array1.concat(array2);
-let total = 0;
+// const array1 = [5, 10, 15, 20];
+// const array2 = [10, 20, 30];
+// const array3 = array1.concat(array2);
+// let total = 0;
 
-console.log(array3);
+// console.log(array3);
 
-for (const num of array3) {
-    total += num;
-}
-console.log(total);
+// for (const num of array3) {
+//     total += num;
+// }
+// console.log(total);
+
+/*
+ * Напиши скрипт пошуку самого маленького числа в масиві,
+ * при умові, що числа унікальні (не повторюються).
+ */
+
+// const numbers = [51, 18, 13, 24, 7, 85, 19];
+// let smallestNumber = numbers[0];
+
+// for (const number of numbers) {
+//     if (number < smallestNumber) {
+//         smallestNumber = number;
+//     }
+// }
+// console.log(smallestNumber);
+
+
+/*
+ * Напиши скрипт, який об"єднує всі елементи массива в один рядок.
+ * Елементів може бути довільна кількість.
+ * Нехай елементи массива  в рядку будут розділені комою.
+ * - Спочатку через for
+ * - Потім через join()
+ */
+
+// const friends = ['Mango', 'Poly', 'Kiwi', 'Ajax'];
+// let string = '';
+
+// // console.log(friends.join(','));
+// for (const friend of friends) {
+//     string += friend + ',';
+// }
+// console.log(string);
+
+// Повинно вийти 'Mango,Poly,Kiwi,Ajax'
+
+
+
+
+/*
+ * Напиши скрипт який замінює регістр кожного символа в рядку на протилежний.
+ * Наприклад, якщо рядок «JavaScript», то на виході повинно бути «jAVAsCRIPT».
+ */
+
+// const str = 'JavaScript';
+
+// let reverStr = '';
+// const arrStr = str.split('');
+// console.log(arrStr);
+
+// for (const letter of arrStr) {
+//     if (letter === letter.toLocaleLowerCase()) {
+//         reverStr += letter.toLocaleUpperCase();
+//     } else {
+//         reverStr += letter.toLocaleLowerCase();
+//     }
+// }
+// console.log(reverStr);
+
+
+
+/*
+ * Робимо slug в URL з назви стратті (приклад на dev.to)
+ * Заголовок статті складається тільки з букв та пропусків
+ *
+ * - Нормалізуємо рядок
+ * - Разбиваємо по словах
+ * - Зшиваємо в рядок з розділителями
+ * - Ченінг
+ */
+
+// Повинно вийти top-10-benefits-of-react-framework
+
+// const title = 'Top 10 benefits of React framework';
+// const normilizeTitle = title.toLocaleLowerCase();
+// console.log(normilizeTitle);
+// const arrTitle = normilizeTitle.split(' ');
+// console.log(arrTitle);
+// const slugTitle = arrTitle.join('-');
+// console.log(slugTitle);
+
+// const slugTitle = title.toLocaleLowerCase(), .split(' '), .join('-');
+
+
+
+/*
+ * Працюємо з колекцією карток в trello
+ * - Метод splice()
+ * - Видалити
+ * - Додати
+ * - Оновити
+ */
+
+// const cards = [
+//     'Карточка-1',
+//     'Карточка-2',
+//     'Карточка-3',
+//     'Карточка-4',
+//     'Карточка-5',
+//   ];
+  
+// console.table(cards);
+  
+// const cardToRemove = 'Карточка-3';
+// const cardToInsert = 'Карточка-6';
+// const cardToUpdate = 'Карточка-4';
+
+// console.log(cards.indexOf(cardToRemove));
+// console.log(cards.splice(index, 1));
+// console.log(cards);
+
+// cards.splice(5, 0, cardToInsert);
+// console.log(cards);
+
+// cards.splice(cards.length, 0, cardToInsert);
+// console.log(cards);
+
+// cards.splice(0, 1, cardToUpdate);
+// console.log(cards);
+  /*
+   * Видалення (по індексу), метод indexOf()
+   */
+
+  
+  /*
+   * Додавання (по індексу)
+   */
+  
+  /*
+   * Оновлення (по індексу)
+   */

@@ -15,6 +15,7 @@ for (const arr1 of Arr1) {
 // Завдання №4
 const message = 'Welcome to Ukraine!'
 
+// const arrMessage = message.split(''); 
 // console.log(message.split(''));
 // console.log(message.indexOf('l'));
 
