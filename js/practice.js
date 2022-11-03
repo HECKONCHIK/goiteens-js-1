@@ -362,24 +362,45 @@
  * - Якщо знайшли логін, вивести повідомлення 'Користувач [логін] знайдено.'
  */
 
-const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
+// const logins = ['m4ngoDoge', 'k1widab3st', 'poly1scute', 'aj4xth3m4n'];
 
-const loginToFind = 'aj4xth3m4n';
+// const loginToFind = 'aj4xth3m4n';
 
-const message = logins.includes(loginToFind) 
+// const message = logins.includes(loginToFind) 
 // ? `Користувач ${loginToFind} знайдено.` 
 // : `Користувач ${loginToFind} не знайдено.`;
-console.log(message);
+// console.log(message);
 
-const findLogin = function (loginsArray, loginsToFind) {
-    const message = loginsArray.includes(loginToFind) 
-? `Користувач ${loginToFind} знайдено.` 
-: `Користувач ${loginToFind} не знайдено.`;
-    return message;
-}
+// const findLogin = function (loginsArray, loginsToFind) {
+//     const message = loginsArray.includes(loginToFind) 
+// ? `Користувач ${loginToFind} знайдено.` 
+// : `Користувач ${loginToFind} не знайдено.`;
+//     return message;
+// }
 
-console.log(findLogin(logins, 'avocod3r'));
-console.log(findLogin(logins, 'avocod3r'));
-console.log(findLogin(logins, 'k1widab3st'));
-console.log(findLogin(logins, 'jam4l'));
-console.log(findLogin(logins, 'poly1scute'));
+// console.log(findLogin(logins, 'avocod3r'));
+// console.log(findLogin(logins, 'avocod3r'));
+// console.log(findLogin(logins, 'k1widab3st'));
+// console.log(findLogin(logins, 'jam4l'));
+// console.log(findLogin(logins, 'poly1scute'));
+
+
+
+
+
+/*
+ * Напиши функцію add для додавання довільної кількості аргументів (чисел)
+ * - Операція ... (rest)
+ */
+
+// const add = function (...args) {
+//     let sum = 0;
+//     for (const arg of args) {
+//         sum += arg 
+//     }
+
+//     return sum;
+//   };
+  
+//   console.log(add(1, 2, 3));
+//   console.log(add(1, 2, 4, 5, 6));
