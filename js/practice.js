@@ -404,3 +404,67 @@
   
 //   console.log(add(1, 2, 3));
 //   console.log(add(1, 2, 4, 5, 6));
+
+
+
+// const str = 'JavaScript';
+
+// let reverStr = '';
+// const arrStr = str.split('');
+// console.log(arrStr);
+
+// for (const letter of arrStr) {
+//     if (letter === letter.toLocaleLowerCase()) {
+//         reverStr += letter.toLocaleUpperCase();
+//     } else {
+//         reverStr += letter.toLocaleLowerCase();
+//     }
+// }
+// console.log(reverStr);
+
+
+
+/*
+ * Напиши функцию changeCase(string) яка замінює регістр кожного символа в рядку на протилежний.
+ * Наприклад, якщо рядок «JavaScript», то на виході повинно бути «jAVAsCRIPT».
+ */
+
+// const changeCase = function () {
+    
+// }
+
+// const str = 'JavaScript';
+
+// const arrStr = str.split('');
+// console.log(arrStr);
+
+// let reversStr = '';
+
+// for (const letter of arrStr) {
+//     if (letter === letter.toLocaleLowerCase()) {
+//         reversStr += letter.toLocaleUpperCase();
+//     } else {
+//         reversStr += letter.toLocal
+//     }
+// }
+
+// console.log(reversStr);
+  
+//   console.log(changeCase('qweRTY')); // QWErty
+//   console.log(changeCase('mAnGo')); // MaNgO
+//   console.log(changeCase('AjAx')); // aJaX
+
+
+
+/*
+ * Напиши функцию slugify(string) яка отримує рядок і повертає URL-slug
+ * Заголовок статті складається тільки з букв та пропусків
+ */
+// const title = 'Top 10 benefits of React framework';
+const slugify = function (str) {
+    return str.toLocaleLowerCase().split(' ').join('-');
+}
+  
+  console.log(slugify('Top 10 benefits of React framework'));
+  console.log(slugify('Azure Static Web Apps are Awesome'));
+  console.log(slugify('Technical writing tips for non-native English speakers'));
