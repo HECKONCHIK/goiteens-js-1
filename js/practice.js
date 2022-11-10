@@ -461,10 +461,28 @@
  * Заголовок статті складається тільки з букв та пропусків
  */
 // const title = 'Top 10 benefits of React framework';
-const slugify = function (str) {
-    return str.toLocaleLowerCase().split(' ').join('-');
-}
+// const slugify = function (str) {
+//     return str.toLocaleLowerCase().split(' ').join('-');
+// }
   
-  console.log(slugify('Top 10 benefits of React framework'));
-  console.log(slugify('Azure Static Web Apps are Awesome'));
-  console.log(slugify('Technical writing tips for non-native English speakers'));
+//   console.log(slugify('Top 10 benefits of React framework'));
+//   console.log(slugify('Azure Static Web Apps are Awesome'));
+//   console.log(slugify('Technical writing tips for non-native English speakers'));
+
+
+
+const playlist = {
+    name: 'Плейлист',
+    rating: 5,
+    tracks: ['трек-1', 'трек-2', 'трек-3'],
+    
+    changeName(newName) {
+    // console.log("this: ", this);
+      this.name = newName;
+    },
+    addTrack(newTrack) {
+        this.tracks.push(newTrack)
+    }
+    
+
+  };
