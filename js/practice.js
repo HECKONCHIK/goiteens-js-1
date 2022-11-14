@@ -471,18 +471,55 @@
 
 
 
-const playlist = {
-    name: 'Плейлист',
-    rating: 5,
-    tracks: ['трек-1', 'трек-2', 'трек-3'],
+// const playlist = {
+//     name: 'Плейлист',
+//     rating: 5,
+//     tracks: ['трек-1', 'трек-2', 'трек-3'],
     
-    changeName(newName) {
-    // console.log("this: ", this);
-      this.name = newName;
-    },
-    addTrack(newTrack) {
-        this.tracks.push(newTrack)
-    }
+//     changeName(newName) {
+//     // console.log("this: ", this);
+//       this.name = newName;
+//     },
+//     addTrack(newTrack) {
+//         this.tracks.push(newTrack)
+//     }
     
 
-  };
+//   };
+
+
+
+// 1. Створи пустий об'єкт user. Додай в об'єкт властивість userName зі своїм іменем. Додай в об'єкт властивість age зі своїм віком. Додай в об'єкт метод showUserName, який виводить твоє ім'я. Додай в об'єкт метод updateAge, який додає під час виклику до твоєго віку 1.
+// const user = {
+    
+//     userName: 'Олег',
+//     age: 15,
+//     updateAge(number){
+//        return this.age += number
+//     },
+//     showUserName() {
+//         console.log(this.userName);
+//     },
+// }
+
+// user.showUserName();
+// console.log(user.updateAge(1));
+
+// 3. Створіть об'єкт calculator з трьома методами:
+
+// read(a, b) - запитує у користувача два числових значення і зберігає їх як властивості об'єкта.
+// sum() - повертає суму збережених значень.
+// mult() - повертає добуток збережених значень.
+
+// const calculator = {
+//     read(a, b) {
+//         this.num1 = a;
+//         this.num2 = b;
+//         console.log(calculator);
+//     },
+//     sum() {
+//         return this.num1 + this.num2;
+//     }
+// }
+// calculator.read(3, 5)
+// console.log(calculator.sum());
