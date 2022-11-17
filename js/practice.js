@@ -523,3 +523,53 @@
 // }
 // calculator.read(3, 5)
 // console.log(calculator.sum());
+
+
+// const feedback = {
+//     good: 5,
+//     neutral: 10,
+//     bad: 3,
+// }
+
+// const keys = Object.keys(feedback);
+
+// let totalFeedback = 0;
+
+// for (const key of keys) {
+    
+//     totalFeedback += feedback[key]
+
+    // console.log(key);
+// }
+// console.log(feedback['good']);
+
+const friends = [
+    { name: 'Mango', online: false },
+    { name: 'Kiwi', online: true },
+    { name: 'Poly', online: false },
+    { name: 'Ajax', online: false },
+  ];
+  
+// console.table(friends);
+  
+
+// for (const friend of friends) {
+    
+// }
+
+
+
+
+
+// const findFriendByName = function (allFriends) {
+
+//     const friendsName = [];
+
+//     for (const friend of allFriends) {
+//         console.log(friend.name);
+//         friendsName.push(friend.name);
+//     }
+//     return friendsName
+//   };
+  
+//   console.log(findFriendByName(friends));
