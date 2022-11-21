@@ -543,12 +543,12 @@
 // }
 // console.log(feedback['good']);
 
-const friends = [
-    { name: 'Mango', online: false },
-    { name: 'Kiwi', online: true },
-    { name: 'Poly', online: false },
-    { name: 'Ajax', online: false },
-  ];
+// const friends = [
+//     { name: 'Mango', online: false },
+//     { name: 'Kiwi', online: true },
+//     { name: 'Poly', online: false },
+//     { name: 'Ajax', online: false },
+//   ];
   
 // console.table(friends);
   
@@ -573,3 +573,65 @@ const friends = [
 //   };
   
 //   console.log(findFriendByName(friends));
+
+
+
+// const friends = [
+//     { name: 'Mango', online: false },
+//     { name: 'Kiwi', online: true },
+//     { name: 'Poly', online: false },
+//     { name: 'Ajax', online: false },
+//   ];
+
+// const getOnlineFriends = function (allFriends) {
+//    const friendOnline = [];
+//    for (const friend of allFriends) {
+//      if(friend.online){
+//       friendOnline.push(friend.name)
+//      }
+//    }
+//    return friendOnline;
+// }
+// console.log(getOnlineFriends(friends)
+
+
+// const getFriendsByStatus = function (allFriends) {
+//     const friendByStat = {
+//       onlineFriends: [],
+//       offlineFriends: [],
+//     }
+
+//     for (const friend of allFriends) {
+
+//         if (friend.online) {
+//             friendByStat.onlineFriends.push(friend.name);
+//         } else {
+//             friendByStat.offlineFriends.push()
+//         }
+//     }
+// };
+  
+//   console.log(getFriendsByStatus(friends));
+
+function checkPassword(password) {
+    const ADMIN_PASSWORD = "jqueryismyjam";
+    let message;
+    // Change code below this line
+
+    switch (password) {
+      
+        case password:
+            message = "Canceled by user!";
+            break;
+      
+        case password:
+            message = "Welcome!";
+      
+        default:
+            message = "Access denied, wrong password!";
+
+            // Change code above this line
+            return message;
+    }
+}
+
