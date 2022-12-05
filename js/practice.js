@@ -634,4 +634,3 @@ function checkPassword(password) {
             return message;
     }
 }
-

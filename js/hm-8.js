@@ -29,13 +29,16 @@
 // Завдання №3
 
 // const findBestEmployee = function (employees) {
-//     const entries = Object.entries(employees);
-//     for (const entry of entries) {
-//         const name = entry[0];
-//         const doneTask = entry[1];
-
-//         return
-//     }
+//   const keys = Object.keys(employees);
+//   let bestResult = 0;
+//   let bestEmployment = "";
+//   for (const key of keys) {
+//     if (employees[key] > bestResult) {
+//       bestResult = employees[key];
+//       bestEmployment = key
+//     };
+//   }
+//   return bestEmployment
 // };
 
 
@@ -130,7 +133,10 @@ const products = [
 ];
 
 const calculateTotalPrice = function (allProdcuts, productName) {
-  
+  const objName = 0;
+  for (const product of allProdcuts) {
+    if (objName === )
+  }
 };
 
 /*
