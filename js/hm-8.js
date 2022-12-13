@@ -133,9 +133,11 @@ const products = [
 ];
 
 const calculateTotalPrice = function (allProdcuts, productName) {
-  const objName = 0;
+  // const objName = 0;
   for (const product of allProdcuts) {
-    if (objName === )
+    if (product[name] === productName) {
+      product[price] * product[quantity];
+    }
   }
 };
 

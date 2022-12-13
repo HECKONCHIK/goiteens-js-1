@@ -613,24 +613,199 @@
   
 //   console.log(getFriendsByStatus(friends));
 
-function checkPassword(password) {
-    const ADMIN_PASSWORD = "jqueryismyjam";
-    let message;
-    // Change code below this line
+// function checkPassword(password) {
+//     const ADMIN_PASSWORD = "jqueryismyjam";
+//     let message;
+//     // Change code below this line
 
-    switch (password) {
+//     switch (password) {
       
-        case password:
-            message = "Canceled by user!";
-            break;
+//         case password:
+//             message = "Canceled by user!";
+//             break;
       
-        case password:
-            message = "Welcome!";
+//         case password:
+//             message = "Welcome!";
       
-        default:
-            message = "Access denied, wrong password!";
+//         default:
+//             message = "Access denied, wrong password!";
 
-            // Change code above this line
-            return message;
-    }
+//             // Change code above this line
+//             return message;
+//     }
+// }
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = courseTopic.length;
+// console.log(courseTopicLength);
+
+
+
+
+//   https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg
+
+// const imgEl = document.createElement('img');
+// imgEl.src = 'https://cdn.pixabay.com/photo/2018/07/26/07/45/valais-3562988_1280.jpg';
+// imgEl.alt = 'img';
+// imgEl.width = '50';
+
+
+// console.log(imgEl);
+
+// const navItemEl = document.createElement('li')
+
+// navItemEl.classList.add('site-nav__item');
+
+// const linkEl = document.createElement('a');
+
+// linkEl.classList.add('nav-link');
+
+// console.log(linkEl);
+
+// navItemEl.appendChild('linEl');
+
+// console.log(navItemEl);
+
+
+
+
+/*
+ * Створюємо і додаємо колекцію
+ */
+// const colorPickerOptions = [
+//     { label: 'red', color: '#F44336' },
+//     { label: 'green', color: '#4CAF50' },
+//     { label: 'blue', color: '#2196F3' },
+//     { label: 'grey', color: '#607D8B' },
+//     { label: 'pink', color: '#E91E63' },
+//     { label: 'indigo', color: '#3F51B5' },
+//   ];
+  
+//   const colorPickerContainerEl = document.querySelector('.js-color-picker');
+
+// //   const option = colorPickerOptions[0];
+// //   console.log(option);
+
+// //   const buttonEl = document.createElement('button');
+// //   buttonEl.type = 'button';
+// //   buttonEl.textContent = option.label;
+// //   buttonEl.style.backgroundColor = option.color;
+
+// //   console.log(buttonEl);
+
+
+//   const buttons = colorPickerOptions.map(function (option){
+
+//   const buttonEl = document.createElement('button');
+
+//   buttonEl.type = 'button';
+
+//   buttonEl.textContent = option.label;
+
+//   buttonEl.style.backgroundColor = option.color;
+ 
+//   return buttonEl;
+//   })
+//   console.log(buttons);
+
+//   colorPickerContainerEl.append(...buttons)
+
+  /*
+   * Пишемо функцію для створення розмітки колорпікеру
+   */
+
+
+//   const createBtnEl = function (options) {
+//    return options.map(function (option) {
+//       const buttonEl = document.createElement('button');
+//         buttonEl.type = 'button';
+//         buttonEl.classList = 'color-picker__option'
+//         buttonEl.textContent = option.label;
+//         buttonEl.style.backgroundColor = option.color;
+//     return buttonEl
+//     })    
+    
+//   }
+
+//   const btns = createBtnEl(colorPickerOptions);
+
+
+//   colorPickerContainerEl.append(...btns)
+
+
+const products = [
+    {
+      name: 'Товар-1',
+      description:
+        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+      price: 2000,
+      available: true,
+      onSale: true,
+    },
+    {
+      name: 'Товар-2',
+      description:
+        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+      price: 3000,
+      available: false,
+      onSale: false,
+    },
+    {
+      name: 'Товар-3',
+      description:
+        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+      price: 1500,
+      available: true,
+      onSale: false,
+    },
+    {
+      name: 'Товар-4',
+      description:
+        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+      price: 2500,
+      available: false,
+      onSale: false,
+    },
+];
+
+const createArticle = function ({name, description, price}) {
+
+const articleEl = document.createElement('article');
+articleEl.classList.add = 'product';
+
+const productName = document.createElement('h2');
+productName.classList.add = 'prouct__name';
+productName.textContent = name;
+
+const productDescrEl = document.createElement('p');
+productDescrEl.classList.add = 'product__descr';
+productDescrEl.textContent = description;
+
+const productPridct = document.createElement('p');
+productPridct.classList.add = 'product__pridct';
+productPridct.textContent = `Ціна: ${price} кредитів`;
+
+articleEl.append(productName, productDescrEl, productPridct);
+
+return articleEl;
 }
+
+const elements = products.map(createArticle);
+
+console.log(elements);
+
+const containerEl = document.querySelector('.js-products');
+
+containerEl.append(...elements);
+
+  
+//  <article class="product">
+//         <h2 class="product__name">Назва</h2>
+//         <p class="product__descr">Опис</p>
+//         <p product__pridct>Ціна: 1111 кредитів</p>
+//     </article>
+
+
+
+
