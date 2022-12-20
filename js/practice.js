@@ -734,70 +734,70 @@
 //   colorPickerContainerEl.append(...btns)
 
 
-const products = [
-    {
-      name: 'Товар-1',
-      description:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
-      price: 2000,
-      available: true,
-      onSale: true,
-    },
-    {
-      name: 'Товар-2',
-      description:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
-      price: 3000,
-      available: false,
-      onSale: false,
-    },
-    {
-      name: 'Товар-3',
-      description:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
-      price: 1500,
-      available: true,
-      onSale: false,
-    },
-    {
-      name: 'Товар-4',
-      description:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
-      price: 2500,
-      available: false,
-      onSale: false,
-    },
-];
+// const products = [
+//     {
+//       name: 'Товар-1',
+//       description:
+//         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+//       price: 2000,
+//       available: true,
+//       onSale: true,
+//     },
+//     {
+//       name: 'Товар-2',
+//       description:
+//         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+//       price: 3000,
+//       available: false,
+//       onSale: false,
+//     },
+//     {
+//       name: 'Товар-3',
+//       description:
+//         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+//       price: 1500,
+//       available: true,
+//       onSale: false,
+//     },
+//     {
+//       name: 'Товар-4',
+//       description:
+//         'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa eius deleniti dolor facilis consectetur laborum aperiam exercitationem quam hic natus.',
+//       price: 2500,
+//       available: false,
+//       onSale: false,
+//     },
+// ];
 
-const createArticle = function ({name, description, price}) {
+// const createArticle = function ({name, description, price}) {
 
-const articleEl = document.createElement('article');
-articleEl.classList.add = 'product';
+// const articleEl = document.createElement('article');
+// articleEl.classList.add = 'product';
 
-const productName = document.createElement('h2');
-productName.classList.add = 'prouct__name';
-productName.textContent = name;
+// const productName = document.createElement('h2');
+// productName.classList.add = 'prouct__name';
+// productName.textContent = name;
 
-const productDescrEl = document.createElement('p');
-productDescrEl.classList.add = 'product__descr';
-productDescrEl.textContent = description;
+// const productDescrEl = document.createElement('p');
+// productDescrEl.classList.add = 'product__descr';
+// productDescrEl.textContent = description;
 
-const productPridct = document.createElement('p');
-productPridct.classList.add = 'product__pridct';
-productPridct.textContent = `Ціна: ${price} кредитів`;
+// const productPridct = document.createElement('p');
+// productPridct.classList.add = 'product__pridct';
+// productPridct.textContent = `Ціна: ${price} кредитів`;
 
-articleEl.append(productName, productDescrEl, productPridct);
+// articleEl.append(productName, productDescrEl, productPridct);
 
-return articleEl;
-}
+// return articleEl;
+// }
 
-const elements = products.map(createArticle);
+// const elements = products.map(createArticle);
 
-console.log(elements);
+// console.log(elements);
 
-const containerEl = document.querySelector('.js-products');
+// const containerEl = document.querySelector('.js-products');
 
-containerEl.append(...elements);
+// containerEl.append(...elements);
 
   
 //  <article class="product">
@@ -807,5 +807,23 @@ containerEl.append(...elements);
 //     </article>
 
 
+
+
+// const refs = {
+//     output: document.querySelector('.js-output'),
+//     clearBtn: document.querySelector('.js-clear'),
+//   };
+  
+//  window.addEventListener('keydown', onKeypress)
+  
+//   function onKeypress(event) {
+//     // console.log(event);
+//     // console.log('event.key: ', event.key);
+//     console.log('event.code: ', event.code);
+  
+//     refs.output.textContent += event.key;
+//   }
+  
+//   function onClearOutput() {}
 
 
