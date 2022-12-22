@@ -806,8 +806,11 @@
 //         <p product__pridct>Ціна: 1111 кредитів</p>
 //     </article>
 
-
-
+// const obj = {
+//     name: 'Oleh',
+//     age: 11
+// }
+// console.log(obj.name[0]);
 
 // const refs = {
 //     output: document.querySelector('.js-output'),

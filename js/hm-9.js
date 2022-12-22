@@ -114,3 +114,25 @@ const users = [
 
 // console.log(getUsersWithEyeColor(users, 'blue'));
 // [об'єкт Moore Hensley, об'єкт Sharlene Bush, об'єкт Carey Barr]
+
+// Завдання №3
+
+// const getUsersWithGender = (users, gender) => {
+//   const usersGender = users
+//     .filter(user => user.gender === gender)
+//     .map(user => user.name)
+//   return usersGender;
+// };
+
+// console.log(getUsersWithGender(users, 'male'));
+// [ 'Moore Hensley', 'Ross Vazquez', 'Carey Barr', 'Blackburn Dotson' ]
+
+// Завдання №4
+
+// const getInactiveUsers = users => {
+//   const inactiveUsers = users.filter(user => !user.isActive)
+//   return inactiveUsers;
+// };
+
+// console.log(getInactiveUsers(users));
+// [об'єкт Moore Hensley, об'єкт Ross Vazquez, об'єкт Blackburn Dotson]
