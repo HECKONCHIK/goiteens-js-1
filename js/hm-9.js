@@ -1,4 +1,4 @@
-export default [
+const users = [
   {
     id: '701b29c3-b35d-4cf1-a5f6-8b12b29a5081',
     name: 'Moore Hensley',
@@ -87,16 +87,13 @@ export default [
 
 // Завдання №1
 // const getUserNames = users => {
-//     const userNames= users.map(function (user) {
-//        return user.name;  
-//     }
-//     ) ;
-
-//     return userNames
+//   const userNames = users.map(user => user.name);
+//   return userNames
 // };
 
+
 // console.log(getUserNames(users));
-// // [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
+// [ 'Moore Hensley', 'Sharlene Bush', 'Ross Vazquez', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony' ]
 
 
 // Завдання №2
@@ -108,4 +105,12 @@ export default [
 //     return usersWithEyeColor
 // };
 
-// console.log(getUsersWithEyeColor(users, 'blue')); // [об'єкт Moore Hensley, об'єкт Sharlene Bush, об'єкт Carey Barr]
+// const getUsersWithEyeColor = (users, color) => {
+//   const userColors = users.filter(user => user.eyeColor === color);
+//   return userColors
+// };
+
+
+
+// console.log(getUsersWithEyeColor(users, 'blue'));
+// [об'єкт Moore Hensley, об'єкт Sharlene Bush, об'єкт Carey Barr]
