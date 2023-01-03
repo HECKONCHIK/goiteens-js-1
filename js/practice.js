@@ -830,3 +830,53 @@
 //   function onClearOutput() {}
 
 
+// function Car(model, price, year, color) {
+//     this.model = model;
+//     this.price = price;
+//     this.year = year;
+//     this.color = color;
+// }
+
+// // const carInstance = new Car();
+
+// const audi = new Car('A5', 40000, 2020, 'black');
+// console.log(audi);
+
+// const mazda = new Car('Mazda Rx-7', 70000, 2010, 'yellow');
+// console.log(mazda);
+
+
+
+// function Customer(name, age, date) {
+//     this.name = name;
+//     this.age = age;
+//     this.date = date;
+// }
+// Customer.prototype.changeDate = function (newDate) {
+//     this.date = newDate;
+// }
+
+
+
+
+
+class Customer{
+    constructor(name, age, date) {
+        this.name = name;
+        this.age = age;
+        this.date = date;
+    }
+    
+    get name() {
+        this.name
+    }
+    set date(newDate) {
+        this._date = newDate;
+    }
+}
+console.log(date);
+
+
+const customer1 = new Customer('Олег', 15, '1.3.2023');
+
+const customer2 = new Customer('Іван', 20, '11.23.2022');

@@ -117,11 +117,11 @@
 /*
  * Викличи функції для перевірки працездатності твоєї реалізації.
  */
-// console.log(getAllPropValues(products, 'name')); // ['Радар', 'Сканер', 'Дроїд', 'Захоплення']
+    // console.log(getAllPropValues(products, 'name')); // ['Радар', 'Сканер', 'Дроїд', 'Захоплення']
 
-// console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
+    // console.log(getAllPropValues(products, 'quantity')); // [4, 3, 7, 2]
 
-// console.log(getAllPropValues(products, 'category')); // []
+    // console.log(getAllPropValues(products, 'category')); // []
 // ЗАвдання №6
 
 
@@ -145,4 +145,3 @@
 // console.log(calculateTotalPrice(products, 'Радар')); // 5200
 
 // console.log(calculateTotalPrice(products, 'Дроїд')); // 2800
-// Завдання №7
