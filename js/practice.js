@@ -860,23 +860,23 @@
 
 
 
-class Customer{
-    constructor(name, age, date) {
-        this.name = name;
-        this.age = age;
-        this.date = date;
-    }
+// class Customer{
+//     constructor(name, age, date) {
+//         this.name = name;
+//         this.age = age;
+//         this.date = date;
+//     }
     
-    get name() {
-        this.name
-    }
-    set date(newDate) {
-        this._date = newDate;
-    }
-}
-console.log(date);
+//     get name() {
+//         this.name
+//     }
+//     set date(newDate) {
+//         this._date = newDate;
+//     }
+// }
+// console.log(date);
 
 
-const customer1 = new Customer('Олег', 15, '1.3.2023');
+// const customer1 = new Customer('Олег', 15, '1.3.2023');
 
-const customer2 = new Customer('Іван', 20, '11.23.2022');
+// const customer2 = new Customer('Іван', 20, '11.23.2022');

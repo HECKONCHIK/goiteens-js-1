@@ -136,3 +136,55 @@ const users = [
 
 // console.log(getInactiveUsers(users));
 // [об'єкт Moore Hensley, об'єкт Ross Vazquez, об'єкт Blackburn Dotson]
+
+// Завдання №5
+
+// const getUserWithEmail = (users, email) => {
+//   const emailUsers = users.find(user => user.email === email)
+//   return emailUsers;
+// };
+
+// console.log(getUserWithEmail(users, 'shereeanthony@kog.com')); // {об'єкт користувача Sheree Anthony}
+// console.log(getUserWithEmail(users, 'elmahead@omatom.com')); // {об'єкт користувача Elma Head}
+
+// Завдання №6
+
+// const getUsersWithAge = (users, min, max) => {
+//   const ageUsers = users.filter(user => user.age >= min && user.age <= max)
+//   return ageUsers;
+// };
+
+// console.log(getUsersWithAge(users, 20, 30)); // [об'єкт Ross Vazquez, об'єкт Elma Head, об'єкт Carey Barr]
+
+// console.log(getUsersWithAge(users, 30, 40));// [об'єкт Moore Hensley, об'єкт Sharlene Bush, об'єкт Blackburn Dotson, об'єкт Sheree Anthony]
+
+// Завдання №7
+
+// const calculateTotalBalance = users => {
+//   const calculateBalance = users.reduce((totalBalance, user) => totalBalance + user.balance, 0)
+//   return calculateBalance
+// };
+
+// console.log(calculateTotalBalance(users)); // 20916
+
+// Збаравання №8
+
+// const getUsersWithFriend = (users, friendName) => {
+//   const usersWithFriend = users
+//     .filter(user => user.friends === friendName)
+//     .map(user => user.name);
+//   return usersWithFriend;
+// };
+
+// console.log(getUsersWithFriend(users, 'Briana Decker')); // [ 'Sharlene Bush', 'Sheree Anthony' ]
+// console.log(getUsersWithFriend(users, 'Goldie Gentry')); // [ 'Elma Head', 'Sheree Anthony' ]
+
+// Завдання №9
+
+// const getNamesSortedByFriendsCount = users => {
+//   return users.sort((user1, user2) => user1.friends.length - user2.friends.length)
+//   .map(user => user.name)
+// };
+
+// console.log(getNamesSortedByFriendsCount(users));
+// [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
