@@ -171,7 +171,7 @@ const users = [
 
 // const getUsersWithFriend = (users, friendName) => {
 //   const usersWithFriend = users
-//     .filter(user => user.friends === friendName)
+//     .filter(user => user.friends.includes(friendName))
 //     .map(user => user.name);
 //   return usersWithFriend;
 // };
@@ -188,3 +188,15 @@ const users = [
 
 // console.log(getNamesSortedByFriendsCount(users));
 // [ 'Moore Hensley', 'Sharlene Bush', 'Elma Head', 'Carey Barr', 'Blackburn Dotson', 'Sheree Anthony', 'Ross Vazquez' ]
+
+// Завдання №10
+
+// const getSortedUniqueSkills = users => {
+//   const getSkills = users
+//     .sort() 
+//     .map(user => user.skills)
+//   return getSkills;
+// };
+
+// console.log(getSortedUniqueSkills(users));
+// [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
